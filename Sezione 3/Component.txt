@@ -1,0 +1,15 @@
+//per template si può andare a capo con ALT+96
+    template: `
+    <table>
+      <caption>User</caption>
+      <tr>
+        <th>Nome</th>
+        <th>Cognome</th>
+    </table>`
+    //oppure si puo usare templateUrl per collegare il component alla sua pagina html*/
+    templateUrl:
+-----------------------------------------------------------------------------------------
+per la creazione di ogni evento l'iter è:
+- inserire l'evento di output in user.component.ts come new eventemitter() e aggiungere il metodo facendo riferimento all'evento
+- aggiungere l'ascolt dell'evento in users.component.html
+- implementare il metodo "onSelectUser" nel component users.component.ts
